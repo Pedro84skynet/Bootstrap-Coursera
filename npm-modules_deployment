@@ -1,0 +1,17 @@
+onchange
+
+parallelshell
+
+rimraf
+
+copyfiles
+
+imagemin-cli
+
+usemin-cli
+
+cssmin
+
+uglifyjs
+
+htmlmin
