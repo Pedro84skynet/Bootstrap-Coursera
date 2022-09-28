@@ -2,7 +2,7 @@ npm init
 
 npm install lite-server --save-dev
 
-# no package.json configurar script:
+# in package.json config script:
     "scripts": {
         "start": "npm run lite",
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,3 +25,8 @@ npm install -g less@2.7.2
 
 # to install sass
 npm install --save-dev node-sass
+# in package.json add script line:
+    "scss": "node-sass -o css/ css/"
+
+# to run scss
+npm run scss
