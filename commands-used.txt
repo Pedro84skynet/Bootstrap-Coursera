@@ -22,3 +22,6 @@ npm install -g less@2.7.2
 
 # to compile a .less file to a .css
 npm install -g less@2.7.2
+
+# to install sass
+npm install --save-dev node-sass
